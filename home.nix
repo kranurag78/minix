@@ -73,16 +73,7 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
-  programs.bash = {
-    enable = true;
-    bashrcExtra = ''
-      . ~/oldbashrc
-    '';
-    shellAliases = {
-      hm = "home-manager";
-      c = "clear";
-    };
-  };
+
   programs.fish = {
     enable = true;
     shellAliases = {
