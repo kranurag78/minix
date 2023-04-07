@@ -14,18 +14,8 @@
     let
       system = "x86_64-linux";
       # only get bare minimum packages 
-      pkgs = import nixpkgs {
-        inherit system;
-        overlays = [ home-manager.nixpkgs.overlay ];
-        config = {
-          allowUnfree = true;
-          packageOverrides = pkgs: {
-            # use the home-manager version of nixpkgs
-            nixpkgs = pkgs.home-manager.nixpkgs;
-          };
-        };
-      };
-      
+      pkgs = nixpkgs.legacyPackages.${system};
+
     in {
       homeConfigurations.ubuntu = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
