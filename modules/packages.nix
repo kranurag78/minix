@@ -8,9 +8,13 @@
       jq
       ripgrep
       sd
+      zoxide
+      starship
     ];
   in {
     home.packages = 
       core;
+
+    programs.bat.enable = "true";
   }
 
