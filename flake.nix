@@ -22,7 +22,7 @@
         # Specify your home configuration modules here, for example,
         # the path to your home.nix.
         modules = [
-          ./modules/home.nix
+          ./home.nix
           ./modules/helix.nix
           ./modules/shell.nix
           ./modules/packages.nix

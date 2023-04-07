@@ -9,11 +9,11 @@
   home.stateVersion = "22.11"; 
 
   home.file = {
+    
   };
 
   home.sessionVariables = {
       EDITOR = "hx";
       NAME = "Anurag";
   };
-
 }
