@@ -15,7 +15,7 @@ sudo sh -c 'echo "experimental-features = nix-command flakes" >> /etc/nix/nix.co
 ### Clone the repo
 
 ```bash
-git clone https://github.com/kranurag78/minix.git ~/.config/home-manager
+git clone --depth=1 https://github.com/kranurag78/minix.git ~/.config/home-manager
 ``` 
 
 ### home-manager 
