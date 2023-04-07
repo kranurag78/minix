@@ -6,7 +6,6 @@
       jq
       ripgrep
       zoxide
-      starship
     ];
   in {
     home.packages = 
