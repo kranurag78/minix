@@ -21,7 +21,7 @@ git clone https://github.com/kranurag78/minix.git ~/.config/home-manager
 ### home-manager 
 
 ```bash
-nix run home-manager/master --switch --flake ~/.config/home-manager
+nix run home-manager/master -- switch --flake ~/.config/home-manager
 ```
 
 Thanks & Credits
