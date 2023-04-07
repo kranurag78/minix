@@ -25,6 +25,7 @@
           ./modules/home.nix
           ./modules/helix.nix
           ./modules/shell.nix
+          ./modules/packages.nix
         ];
 
         # Optionally use extraSpecialArgs
