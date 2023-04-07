@@ -12,14 +12,17 @@ sh <(curl -L https://nixos.org/nix/install) --daemon --yes
 sudo sh -c 'echo "experimental-features = nix-command flakes" >> /etc/nix/nix.conf'
 ```
 
-```bash
-mkdir -p ~/.config && cd ~/.config 
-```
 ### Clone the repo
-```bash
-git clone https://github.com/kranurag78/minix.git home-manager && cd home-manager
-``` 
 
 ```bash
-nix run .#homeConfigurations.ubuntu.activationPackage
+git clone https://github.com/kranurag78/minix.git ~/.config/home-manager
+``` 
+
+### home-manager 
+
+```bash
+nix run home-manager/master --switch --flake ~/.config/home-manager
 ```
+
+Thanks & Credits
+- NobbZ

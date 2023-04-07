@@ -1,8 +1,7 @@
 { ... }: {
   programs.starship = {
     enable = false;
-    enableBashIntegration = true;
-    enableZshIntegration = true;
+    enableFishIntegration = true;
     settings = {
 
       character = {

@@ -12,6 +12,8 @@ in {
       hms = "home-manager switch";
       hmp = "home-manager packages";
       hme = "home-manager edit";
+      hmg = "home-manager generations";
+      hmd = "cd ~/.config/home-manager/";
       c = "clear";
       glo = "git log --color --pretty=format:\"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\" --abbrev-commit";
       ggpush = "git push origin $(git rev-parse --abbrev-ref HEAD)";

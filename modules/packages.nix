@@ -2,12 +2,9 @@
   core = with pkgs;
     [
       bat
-      exa
       fd
-      git
       jq
       ripgrep
-      sd
       zoxide
       starship
     ];
