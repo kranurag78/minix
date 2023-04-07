@@ -1,6 +1,7 @@
 {pkgs, ...}: let
   core = with pkgs;
     [
+      bat
       exa
       fd
       git
