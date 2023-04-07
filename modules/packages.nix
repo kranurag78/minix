@@ -10,6 +10,6 @@
     ];
   in {
     home.packages = 
-      core
+      core;
   }
 
