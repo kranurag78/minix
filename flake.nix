@@ -22,7 +22,6 @@
           ./modules/helix.nix
           ./modules/shell.nix
           ./modules/packages.nix
-          # ./modules/starship.nix
         ];
       };
     };
