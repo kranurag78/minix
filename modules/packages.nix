@@ -2,6 +2,7 @@
   core = with pkgs;
     [
       bat
+      fzf
       fd
       jq
       ripgrep
@@ -17,5 +18,9 @@
       enableFishIntegration = true;
     };
 
+    programs.fzf = {
+      enable = true;
+      enableFishIntegration = true;
+    };
   }
 
